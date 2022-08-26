@@ -6,5 +6,18 @@ function feetToMile(feet){
 }
 
 var result = feetToMile(1);
-console.log(result);
+console.log("Mile = ",result);
+
+//Wood Calculator
+
+function WoodCalculator(bed,table,chair){
+
+    var wood = (bed*5)+(table*3)+(chair*1);
+    return wood;
+}
+
+var result = WoodCalculator(2,2,2);
+console.log("Wood = ",result);
+
+//Brick Calculator
 
